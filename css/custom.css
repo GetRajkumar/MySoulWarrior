@@ -1,0 +1,166 @@
+/* 
+
+1. Add your custom Css styles below
+2. Place the this code in your template: 
+
+ <link href="css/custom.css" rel="stylesheet">
+
+*/
+section.box-fancy .col-md-3 {
+    min-height: 630px;
+}
+
+.Experience h2 {
+    font-size: 60px !important;
+    color: #fff;
+}
+.Experience p {
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+}
+.Experience li{
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+}
+ul.dashed {
+  list-style-type: none;
+}
+ul.dashed > li {
+  text-indent: -5px;
+}
+ul.dashed > li:before {
+ content: "-";
+    text-indent: -5px;
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 6px;
+}
+ul.dashed {
+    padding-left: 6px;
+    line-height: 29px;
+}
+.box_experience {
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid #fff;
+    border-radius: 2px;
+    margin: 90px 35px 90px 35px;
+    display: block;
+        padding-bottom: 50px;
+}
+.box_experience h5.text-center {
+    font-size: 22px;
+    color: #fff;
+     padding-top: 30px;
+    padding-bottom: 15px;
+}
+.list-box {
+    display: block;
+    margin: 0 auto;
+    max-width: 550px;
+ 
+}
+.list-box li {
+    font-size: 22px;
+    line-height: 33px;
+   
+}
+.background-orange-colored{
+    background: #ff6600;
+}
+
+.PlaceContainer {
+    color: #fff;
+}
+.PlaceContainer h2 {
+    color: #fff;
+        font-size: 32px;
+    font-weight: 700;
+}
+
+
+.PlaceContainer address {
+    font-size: 26px;
+}
+
+.PlaceContainer p {
+    font-size: 22px;
+    color: #fff;
+    line-height: 32px;
+        margin-bottom: 25px;
+}
+
+.PlaceContainer button.btn.btn-default.reserve_btn {
+    background: #fff;
+    border: 0px;
+    border-radius: 0px;
+    font-size: 24px;
+    text-transform: capitalize;
+    font-weight: 400;
+    padding: 25px 55px;
+    color: #ff6600;
+    text-shadow: none;
+    margin-bottom: 20px;
+}
+.PlaceContainer button.btn.btn-default.reserve_btn:hover{
+    background: #e8e8e8;
+}
+.leftpanel {
+    background: #ff6600;
+        padding: 50px 50px 26px 50px;
+}
+.leftpanel p{
+       color: #fff;
+   font-size: 29px;
+    line-height: 40px;
+    margin-bottom: 30px;
+    font-weight: 200;
+    
+}
+
+.rightpanel{
+     background: #fff;
+        padding: 50px 50px 26px 50px;
+}
+.rightpanel h3{
+color:#333333;
+    font-size: 30px;
+    
+}
+
+input.form-control.emailinput {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 0px;
+    border: 2px solid #333;
+    color: #333;
+    font-weight: 400;
+    font-size: 22px;
+    margin-bottom: 35px;
+}
+
+
+input.form-control.emailinput::-webkit-input-placeholder{
+    color: #333;
+}
+
+button.btn.btn-default.signup_btn {
+    font-weight: 400;
+    text-shadow: none;
+    text-transform: capitalize;
+    font-size: 22px;
+    padding: 18px 40px;
+    min-width: 400px;
+    line-height: 16px;
+    border-radius: 8px;
+    background: #ff8d00;
+    color: #fff;
+}
+
+
+
+
+
+
