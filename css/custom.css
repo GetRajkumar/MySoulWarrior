@@ -98,7 +98,7 @@ ul.dashed {
     font-size: 24px;
     text-transform: capitalize;
     font-weight: 400;
-    padding: 25px 55px;
+    padding: 25px 25px;
     color: #ff6600;
     text-shadow: none;
     margin-bottom: 20px;
@@ -126,11 +126,10 @@ ul.dashed {
 .rightpanel h3{
 color:#333333;
     font-size: 30px;
-    
+    line-height: 38px;
 }
 
 input.form-control.emailinput {
-    max-width: 400px;
     margin: 0 auto;
     text-align: center;
     border-radius: 0px;
@@ -145,22 +144,42 @@ input.form-control.emailinput {
 input.form-control.emailinput::-webkit-input-placeholder{
     color: #333;
 }
-
+.containersignup {
+    display: block;
+    max-width: 450px;
+    margin: 0 auto;
+}
 button.btn.btn-default.signup_btn {
-    font-weight: 400;
+       font-weight: 400;
     text-shadow: none;
     text-transform: capitalize;
     font-size: 22px;
     padding: 18px 40px;
-    min-width: 400px;
     line-height: 16px;
-    border-radius: 8px;
+    border-radius: 3px;
     background: #ff8d00;
     color: #fff;
+    border: 1px solid #ff8d00;
+    width: 100%;
 }
 
-
-
+@media screen 
+  and (min-device-width: 992px) 
+  and (max-device-width: 1200px)  { 
+      section.box-fancy .col-md-3 {
+    min-height: 660px;
+}
+}
+@media screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 992px)  { 
+   section.box-fancy .col-md-3 {
+    min-height: 200px;
+}
+      .Experience h2 {
+    font-size: 40px !important;
+      }
+}
 
 
 
